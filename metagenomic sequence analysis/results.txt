@@ -1,0 +1,64 @@
+Annotation analysis:
+
+9947 transcripts in merged file
+
+2926 distinct genes in merged file
+
+8324 transcripts in annotation file
+
+5770 protein coding transcripts in annotation file
+
+1323 distinct protein coding genes in annotation file
+
+
+
+
+Transcript analysis:
+
+8149 exact matches
+
+1301 novel transcripts in protein-coding gene loci 
+
+43 novel transcripts in novel locations
+
+
+
+
+
+Ocular sample comparisons:
+
+The highest TPM among the assembled transcripts was 64376.26, found in a479070_reestimate.gtf with
+the following transcript record
+chr17   StringTie    transcript   81509971     81512851     1000    -    .    gene_id "MSTRG.1633"; 
+transcript_id "CHS.23541.3"; ref_gene_name "ACTG1"; cov "6350.230957"; FPKM "19994.509766"; TPM "64376.265625"; 
+
+3585 distinct transcripts with tpm greater than 0
+
+436 distinct genes with tpm greater than 0
+
+3439 transcripts with a tpm greater than 50
+
+
+SRR47952
+1. ('MSTRG.1633', 73004.172749)
+2. ('MSTRG.397', 55568.953606999996)
+3. ('MSTRG.894', 29349.207909999997)
+4. ('MSTRG.762', 28467.01718000001)
+5. ('MSTRG.138', 25025.259436000004)
+6. ('MSTRG.266', 21066.098480000004)
+7. ('MSTRG.1144', 18520.669921)
+8. ('MSTRG.27', 16355.547186000003)
+9. ('MSTRG.202', 15605.140573000004)
+10. ('MSTRG.1415', 14947.785716000002)
+
+SRR47954
+1. ('MSTRG.1633', 62832.142683)
+2. ('MSTRG.397', 50503.392404000006)
+3. ('MSTRG.894', 27764.97463)
+4. ('MSTRG.762', 25338.461058)
+5. ('MSTRG.138', 21297.046343)
+6. ('MSTRG.266', 20950.580309)
+7. ('MSTRG.1144', 16143.132434999996)
+8. ('MSTRG.27', 15669.207777000001)
+9. ('MSTRG.1415', 14763.743059000002)
+10. ('MSTRG.548', 13232.907736)

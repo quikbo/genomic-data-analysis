@@ -1,0 +1,23 @@
+
+S. pombe analysis:
+    mapped reads - 4662367
+    unmapped reads - 330483
+    spliced alignments - 162989
+
+S. pombe realignment analysis:
+    mapped reads - 4571788
+    unmapped reads - 421062
+    spliced alignments - 27985
+
+The sliced alignment parameter --min-intronlen was set to 200, 
+which has a default value of 20. Increasing the minimum intron
+length by a factor of 10 made a big difference in the analysis, 
+around 100,000 less reads mapped and about 140,000 less spliced
+alignments. This happened because setting this parameter to 200
+made hisat ignore any introns shorter than 200, which is clearly
+the majority of them if there is such a big difference in the 
+spliced alignments. 
+
+
+
+

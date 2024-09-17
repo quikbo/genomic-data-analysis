@@ -1,0 +1,7 @@
+/opt/ccb/data/Klebsiella_genome_data/GenBank_reference_genome/GCF_002752995.1_ASM275299v1_genome.fna /home/wboudy1/p1p1/longest_contig.fasta
+NUCMER
+
+    [S1]     [E1]  |     [S2]     [E2]  |  [LEN 1]  [LEN 2]  |  [% IDY]  | [TAGS]
+=====================================================================================
+ 1211588  1731827  |        1   520240  |   520240   520240  |    99.99  | NZ_CP024542.1	scf7180000000108
+ 1739847  1888915  |   517467   666535  |   149069   149069  |    99.98  | NZ_CP024542.1	scf7180000000108

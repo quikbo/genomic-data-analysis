@@ -1,0 +1,58 @@
+the number of mapped reads, unmapped reads, and spliced alignments for 
+each of the 11 samples are as follows:
+
+
+479052:
+    mapped reads - 1123503
+    unmapped reads - 1801
+    spliced alignments - 428765
+
+479054:
+    mapped reads - 636591
+    unmapped reads - 1183
+    spliced alignments - 241622
+
+479056:
+    mapped reads - 692947
+    unmapped reads - 1191
+    spliced alignments - 263587
+
+479058:
+    mapped reads - 1015888
+    unmapped reads - 1690
+    spliced alignments - 394993
+
+479061:
+    mapped reads - 2191034
+    unmapped reads - 2174
+    spliced alignments - 852908
+
+479064:
+    mapped reads - 2016213
+    unmapped reads - 2025
+    spliced alignments - 778732
+
+479066:
+    mapped reads - 1015687
+    unmapped reads - 1929
+    spliced alignments - 379917
+
+479068:
+    mapped reads - 1718777
+    unmapped reads - 3055
+    spliced alignments - 652783
+
+479070:
+    mapped reads - 3246831
+    unmapped reads - 5555
+    spliced alignments - 1269640
+
+479073:
+    mapped reads - 990047
+    unmapped reads - 1829
+    spliced alignments - 365480
+
+479076:
+    mapped reads - 842376
+    unmapped reads - 1622
+    spliced alignments - 306393

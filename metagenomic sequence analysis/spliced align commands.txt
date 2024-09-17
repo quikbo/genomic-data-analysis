@@ -1,0 +1,12 @@
+Unix command to obtain number of spliced alignments for each sample:
+
+samtools view a479052.bam | awk 'BEGIN {count=0} $6 ~ /N/ {count++} END {print count}'
+
+
+- samtools view omits header of bam file
+- BEGIN command initializes count to 0
+- $6 ~ /N/ checks for 'N' in the 6th column, the CIGAR column, of every line
+- END command prints the value of count after awk processes every line in the bam file
+
+Changed the line with the bam file name to find the spliced 
+alignments for each of the 11 samples. 

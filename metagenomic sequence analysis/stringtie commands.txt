@@ -1,0 +1,22 @@
+
+stringtie ./alignments/a479052.bam -p 8 -G /opt/ccb/data/grch38/CHESS_v3.0_chr17.gtf -o a479052.gtf -l a479052
+stringtie ./alignments/a479076.bam -p 8 -G /opt/ccb/data/grch38/CHESS_v3.0_chr17.gtf -o a479076.gtf -l a479076
+
+stringtie --merge -p 8 -G /opt/ccb/data/grch38/CHESS_v3.0_chr17.gtf -o stringtie_merged.gtf mergelist.txt
+
+python3 stringtie_analysis.py
+
+
+
+
+
+gffcompare -r CHESS_v3.0_chr17.gtf -G -o merged stringtie_merged.gtf
+
+python3 transcript_analysis.py
+
+
+
+
+stringtie -e -p 8 -G stringtie_merged.gtf -o a479068_reestimate.gtf -l a479068 ./alignments/a479068.bam
+
+python3 tpm_expression.py < reestimate_list.txt
